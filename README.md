@@ -18,7 +18,7 @@ npm run dev
 
 GitHub Pages:
 
-https://kazaha64.github.io/salesforce-crm/
+https://anemos-dev.github.io/salesforce-crm/
 
 GitHub Pages版は静的サイトとして動作します。APIサーバーは起動しないため、PINログイン後は端末内の `localStorage` に保存されます。共有保存や競合制御を含めた確認はローカルの `npm run dev` で行ってください。
 
