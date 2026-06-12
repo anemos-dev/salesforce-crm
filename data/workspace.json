@@ -1,0 +1,187 @@
+{
+  "_meta": {
+    "version": 4,
+    "updatedAt": "2026-06-12T01:17:21.839Z"
+  },
+  "selectedAccountId": "acct-1",
+  "selectedStage": "すべて",
+  "selectedCampaign": "camp-1",
+  "auditLog": [
+    {
+      "time": "12:30",
+      "text": "夏期ウェビナーの参加者リストを更新",
+      "type": "campaign"
+    },
+    {
+      "time": "11:05",
+      "text": "ケース C-1842 を請求チームへエスカレーション",
+      "type": "case"
+    },
+    {
+      "time": "10:15",
+      "text": "Agentforceが高リスク商談を3件検出",
+      "type": "ai"
+    },
+    {
+      "time": "09:40",
+      "text": "森田が東都ロジスティクスへ提案書を送付",
+      "type": "opportunity"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acct-1",
+      "name": "東都ロジスティクス",
+      "initials": "TL",
+      "industry": "物流",
+      "owner": "森田",
+      "revenue": "¥42.0B",
+      "employees": "1,250名",
+      "health": 86,
+      "nps": 48,
+      "renewal": "2026年9月",
+      "order": "¥4.2M",
+      "website": "https://toto-logi.example.jp"
+    },
+    {
+      "id": "acct-2",
+      "name": "南青山リテール",
+      "initials": "MR",
+      "industry": "小売",
+      "owner": "安藤",
+      "revenue": "¥18.4B",
+      "employees": "720名",
+      "health": 78,
+      "nps": 41,
+      "renewal": "2026年7月",
+      "order": "¥2.8M",
+      "website": "https://minamiaoyama.example.jp"
+    },
+    {
+      "id": "acct-3",
+      "name": "北辰メディカル",
+      "initials": "HM",
+      "industry": "医療",
+      "owner": "佐伯",
+      "revenue": "¥31.8B",
+      "employees": "980名",
+      "health": 64,
+      "nps": 31,
+      "renewal": "2026年11月",
+      "order": "¥3.1M",
+      "website": "https://hokushin.example.jp"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "accountId": "acct-1",
+      "company": "東都ロジスティクス",
+      "owner": "森田",
+      "stage": "提案",
+      "amount": 18.6,
+      "close": "2026-06-24",
+      "risk": "中",
+      "probability": 65
+    },
+    {
+      "id": "opp-2",
+      "accountId": "acct-2",
+      "company": "南青山リテール",
+      "owner": "安藤",
+      "stage": "契約",
+      "amount": 12.2,
+      "close": "2026-06-28",
+      "risk": "低",
+      "probability": 85
+    },
+    {
+      "id": "opp-3",
+      "accountId": "acct-3",
+      "company": "北辰メディカル",
+      "owner": "佐伯",
+      "stage": "稟議",
+      "amount": 9.4,
+      "close": "2026-07-03",
+      "risk": "高",
+      "probability": 45
+    },
+    {
+      "id": "opp-4",
+      "accountId": "acct-1",
+      "company": "東都ロジスティクス",
+      "owner": "中村",
+      "stage": "要件確認",
+      "amount": 7.8,
+      "close": "2026-07-08",
+      "risk": "中",
+      "probability": 35
+    },
+    {
+      "id": "opp-5",
+      "accountId": "acct-2",
+      "company": "南青山リテール",
+      "owner": "森田",
+      "stage": "提案",
+      "amount": 6.1,
+      "close": "2026-07-12",
+      "risk": "低",
+      "probability": 60
+    }
+  ],
+  "cases": [
+    {
+      "id": "C-1842",
+      "accountId": "acct-2",
+      "subject": "請求書PDFが開けない",
+      "owner": "請求チーム",
+      "priority": "高",
+      "status": "新規",
+      "slaMinutes": 80
+    },
+    {
+      "id": "C-1841",
+      "accountId": "acct-1",
+      "subject": "配送ステータス連携の遅延",
+      "owner": "連携サポート",
+      "priority": "中",
+      "status": "対応中",
+      "slaMinutes": 185
+    },
+    {
+      "id": "C-1839",
+      "accountId": "acct-3",
+      "subject": "管理者権限の追加依頼",
+      "owner": "管理者支援",
+      "priority": "低",
+      "status": "解決済み",
+      "slaMinutes": 390
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp-1",
+      "name": "夏期ウェビナー",
+      "channel": "ウェビナー",
+      "leads": 842,
+      "conversion": 21,
+      "cost": 1.8
+    },
+    {
+      "id": "camp-2",
+      "name": "既存顧客アップセル",
+      "channel": "メール",
+      "leads": 318,
+      "conversion": 34,
+      "cost": 0.9
+    },
+    {
+      "id": "camp-3",
+      "name": "展示会フォロー",
+      "channel": "イベント",
+      "leads": 496,
+      "conversion": 16,
+      "cost": 2.4
+    }
+  ]
+}
